@@ -22,6 +22,8 @@ namespace CSharpEgitimKampi301.EntityLayer.Concreate
         public int CategoryId { get; set; } //Otomatik artan olduğunu anlaması için Class'ın isminin aynısı+Id kuralına uyulması gerekiyor.
         public string CategoryName { get; set; }
         public int CategoryStatus { get; set; }
+
+        public List<Product> Product { get; set; }
     }
 }
 /*
