@@ -12,6 +12,7 @@ namespace CSharpEgitimKampi301.EntityLayer.Concreate
         public string CustomerName { get; set; }
         public string CustomerSurname { get; set; }
         public List<Order> Orders { get; set; }
+        public bool CustomerStatus { get; set; }
     }
 }
 
