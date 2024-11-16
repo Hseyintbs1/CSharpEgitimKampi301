@@ -22,7 +22,7 @@ namespace CSharpEgitimKampi.EFProject
     
         public int GuideId { get; set; }
         public string GuideName { get; set; }
-        public string Guide1 { get; set; }
+        public string GuideSurname { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Location> Location { get; set; }

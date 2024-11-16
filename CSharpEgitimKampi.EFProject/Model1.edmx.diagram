@@ -5,11 +5,12 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="714868c8b152447eabfc03bcd2276958" Name="Diagram1">
-        <EntityTypeShape EntityType="EgitimKampiEFTravelDbModel.Customer" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="EgitimKampiEFTravelDbModel.Guide" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="EgitimKampiEFTravelDbModel.Location" Width="1.5" PointX="2.875" PointY="1.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="EgitimKampiEFTravelDbModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EgitimKampiEFTravelDbModel.Customer" Width="1.5" PointX="5.625" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EgitimKampiEFTravelDbModel.Guide" Width="1.5" PointX="0.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EgitimKampiEFTravelDbModel.Location" Width="1.5" PointX="3.875" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EgitimKampiEFTravelDbModel.sysdiagrams" Width="1.5" PointX="7.375" PointY="1.25" IsExpanded="true" />
         <AssociationConnector Association="EgitimKampiEFTravelDbModel.FK_Location_Guide" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="EgitimKampiEFTravelDbModel.Admin" Width="1.5" PointX="9.25" PointY="1.25" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
