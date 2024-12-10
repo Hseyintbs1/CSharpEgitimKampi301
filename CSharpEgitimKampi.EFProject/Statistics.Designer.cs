@@ -96,9 +96,9 @@
             this.label1.Location = new System.Drawing.Point(70, 19);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 24);
+            this.label1.Size = new System.Drawing.Size(142, 24);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Locasyon Sayısı";
+            this.label1.Text = "Locasyon Sayısı:";
             // 
             // lblLocationCount
             // 
@@ -129,9 +129,9 @@
             this.lblCapacity.Location = new System.Drawing.Point(77, 19);
             this.lblCapacity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCapacity.Name = "lblCapacity";
-            this.lblCapacity.Size = new System.Drawing.Size(147, 24);
+            this.lblCapacity.Size = new System.Drawing.Size(152, 24);
             this.lblCapacity.TabIndex = 1;
-            this.lblCapacity.Text = "Toplam Kapasite";
+            this.lblCapacity.Text = "Toplam Kapasite:";
             // 
             // lblSumCapacity
             // 
@@ -162,9 +162,9 @@
             this.label5.Location = new System.Drawing.Point(77, 19);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(121, 24);
+            this.label5.Size = new System.Drawing.Size(126, 24);
             this.label5.TabIndex = 1;
-            this.label5.Text = "Rehber Sayısı";
+            this.label5.Text = "Rehber Sayısı:";
             // 
             // lblGuideCount
             // 
@@ -195,9 +195,9 @@
             this.label7.Location = new System.Drawing.Point(77, 19);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(164, 24);
+            this.label7.Size = new System.Drawing.Size(169, 24);
             this.label7.TabIndex = 1;
-            this.label7.Text = "Ortalama Kapasite";
+            this.label7.Text = "Ortalama Kapasite:";
             // 
             // lblAvgCapacity
             // 
@@ -228,9 +228,9 @@
             this.label9.Location = new System.Drawing.Point(74, 19);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(153, 24);
+            this.label9.Size = new System.Drawing.Size(158, 24);
             this.label9.TabIndex = 1;
-            this.label9.Text = "Eklenen Son Ülke";
+            this.label9.Text = "Eklenen Son Ülke:";
             // 
             // lblLastCountry
             // 
@@ -261,9 +261,9 @@
             this.label11.Location = new System.Drawing.Point(33, 19);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(222, 24);
+            this.label11.Size = new System.Drawing.Size(227, 24);
             this.label11.TabIndex = 1;
-            this.label11.Text = "Kapadokya Tur Kapasitesi";
+            this.label11.Text = "Kapadokya Tur Kapasitesi:";
             // 
             // lblCappadociaLocationCapacity
             // 
@@ -296,7 +296,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(212, 48);
             this.label13.TabIndex = 1;
-            this.label13.Text = "Türkiye Turları Ortalama\r\n          Kapasitesi";
+            this.label13.Text = "Türkiye Turları Ortalama\r\n          Kapasitesi:";
             // 
             // lblTurkiyeCapacityAvg
             // 
@@ -327,9 +327,9 @@
             this.label15.Location = new System.Drawing.Point(54, 19);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(169, 24);
+            this.label15.Size = new System.Drawing.Size(174, 24);
             this.label15.TabIndex = 1;
-            this.label15.Text = "Ortalama Tur Fiyatı";
+            this.label15.Text = "Ortalama Tur Fiyatı:";
             // 
             // lblAvgLocationPrice
             // 
@@ -360,9 +360,9 @@
             this.label17.Location = new System.Drawing.Point(45, 19);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(210, 24);
+            this.label17.Size = new System.Drawing.Size(215, 24);
             this.label17.TabIndex = 1;
-            this.label17.Text = "En Yüksek Kapasiteli Tur";
+            this.label17.Text = "En Yüksek Kapasiteli Tur:";
             // 
             // lblMaxCapacityLocation
             // 
@@ -393,9 +393,9 @@
             this.label19.Location = new System.Drawing.Point(69, 19);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(119, 24);
+            this.label19.Size = new System.Drawing.Size(124, 24);
             this.label19.TabIndex = 1;
-            this.label19.Text = "En Pahalı Tur";
+            this.label19.Text = "En Pahalı Tur:";
             // 
             // lblMaxPriceLocation
             // 
@@ -426,9 +426,9 @@
             this.label21.Location = new System.Drawing.Point(46, 19);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(226, 24);
+            this.label21.Size = new System.Drawing.Size(231, 24);
             this.label21.TabIndex = 1;
-            this.label21.Text = "Ayşegül Çınar\'ın Tur Sayısı";
+            this.label21.Text = "Ayşegül Çınar\'ın Tur Sayısı:";
             // 
             // lblAysegulCınarLocationCount
             // 
@@ -459,9 +459,9 @@
             this.label23.Location = new System.Drawing.Point(70, 19);
             this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(169, 24);
+            this.label23.Size = new System.Drawing.Size(174, 24);
             this.label23.TabIndex = 1;
-            this.label23.Text = "Roma Gezi Rehberi";
+            this.label23.Text = "Roma Gezi Rehberi:";
             // 
             // lblRomeGuideName
             // 
