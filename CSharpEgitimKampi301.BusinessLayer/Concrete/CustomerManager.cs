@@ -12,7 +12,6 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
     public class CustomerManager : ICustomerService
     {
         private readonly ICustomerDal _customerDal;
-
         public CustomerManager(ICustomerDal customerDal)
         {
             _customerDal = customerDal;
@@ -21,7 +20,6 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
         {
             _customerDal.Delete(entity);
         }
-
         public List<Customer> TGetAll()
         {
             //if (yetki varsa)
@@ -34,12 +32,10 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
             //}
             return _customerDal.GetAll();
         }
-
         public Customer TGetById(int id)
         {
             return _customerDal.GetById(id);
         }
-
         public void TInsert(Customer entity)
         {
             if (entity.CustomerName != " " && entity.CustomerName.Length >= 3 && entity.CustomerSurname != " " && entity.CustomerName.Length <= 30)
@@ -52,7 +48,6 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
                 //hata mesajı ver   
             }
         }
-
         public void TUpdate(Customer entity)
         {
             if (entity.CustomerId != 0)
