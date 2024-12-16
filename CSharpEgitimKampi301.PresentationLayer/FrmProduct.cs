@@ -17,10 +17,12 @@ namespace CSharpEgitimKampi301.PresentationLayer
     public partial class FrmProduct : Form
     {
         private readonly IProductService _productService;
+        private readonly ICategoryService _categoryService;
         public FrmProduct()
         {
             InitializeComponent();
             _productService = new ProductManager(new EfProductDal());
+            _categoryService = new CategoryManager(new EfCategoryDal());
         }
         
        
@@ -48,7 +50,7 @@ namespace CSharpEgitimKampi301.PresentationLayer
         private void btnAdd_Click(object sender, EventArgs e)
         {
             Product product = new Product();
-            product.CategoryId = int.Parse(cmbCategory.Text);
+            product.CategoryId = int.Parse(cmbCategory.SelectedValue.ToString());
             product.ProductPrice= decimal.Parse(txtProductPrice.Text);
             product.ProductName = txtProductName.Text;
             product.ProductDescription = txtDescription.Text;
@@ -69,12 +71,22 @@ namespace CSharpEgitimKampi301.PresentationLayer
         {
             int id = int.Parse(txtProductId.Text);
             var value = _productService.TGetById(id);
+            value.CategoryId = int.Parse(cmbCategory.SelectedValue.ToString());
             value.ProductDescription = txtDescription.Text;
             value.ProductPrice = decimal.Parse(txtProductPrice.Text);
             value.ProductName = txtProductName.Text;
             value.ProductStock = int.Parse(txtProductStock.Text);
             _productService.TUpdate(value);
             MessageBox.Show("kayıt güncellendi...");
+        }
+
+        private void FrmProduct_Load(object sender, EventArgs e)
+        {
+            var values = _categoryService.TGetAll();
+            cmbCategory.DataSource = values;
+            cmbCategory.DisplayMember = "CategoryName";
+            cmbCategory.ValueMember = "CategoryId";
+
         }
     }
 }
