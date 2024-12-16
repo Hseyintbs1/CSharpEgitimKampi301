@@ -59,6 +59,7 @@
             this.btnUpdate.TabIndex = 25;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnGetByID
             // 
@@ -69,6 +70,7 @@
             this.btnGetByID.TabIndex = 24;
             this.btnGetByID.Text = "ID\'ye Göre Getir";
             this.btnGetByID.UseVisualStyleBackColor = true;
+            this.btnGetByID.Click += new System.EventHandler(this.btnGetByID_Click);
             // 
             // btnDelete
             // 
@@ -90,6 +92,7 @@
             this.btnAdd.TabIndex = 22;
             this.btnAdd.Text = "Ekle";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtProductName
             // 
